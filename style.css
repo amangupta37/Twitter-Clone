@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background: brown;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1, 792px);
+}
+
+.cont-1 {
+  width: 100%;
+  background: black;
+  color: aliceblue;
+}
+
+.cont-2 {
+  width: 100%;
+  background: #15181c;
+  color: aliceblue;
+  display: grid;
+  grid-template-rows: 230px 550px;
+  grid-gap: 10px;
+  border: 0.5px solid #15181c;
+}
+
+.header {
+  width: 100%;
+  height: 4rem;
+  border: 0.5px solid #15181c;
+  background: black;
+  display: flex;
+}
+#star-icon {
+  fill: rgb(29, 161, 242);
+  padding-top: 1rem;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+
+.profile {
+  width: 100%;
+  height: 10.5rem;
+  border: 0.5px solid #15181c;
+  background: black;
+  display: flex;
+  gap: 1rem;
+}
+
+.post {
+  width: 100%;
+  border: 0.5px solid #15181c;
+  background: black;
+}
+
+.cont-3 {
+  width: 100%;
+  background: black;
+  color: aliceblue;
+}
+
+#style-home {
+  width: 80%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+.user-place {
+  width: 8%;
+  margin-left: 1rem;
+  margin-top: 8px;
+}
+#user-profile {
+  width: 100%;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+.write-post {
+  width: 80%;
+  margin-top: 5px;
+  /* display: grid;
+  grid-template-columns: 200px; */
+  /* background: red; */
+}
+
+#msg-box {
+  width: 100%;
+  height: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(217, 217, 217);
+  background: black;
+  border: none;
+  outline: none;
+}
+.reply {
+  margin-top: 1rem;
+  display: flex;
+  gap: 5px;
+}
+
+#gloab {
+  fill: rgb(29, 161, 242);
+  cursor: pointer;
+}
+
+#text-msg {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(29, 161, 242);
+  line-height: normal;
+  cursor: pointer;
+}
+.low-cnt {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 400px;
+}
+.media {
+  width: 100%;
+  margin-top: 25px;
+  display: grid;
+
+  grid-template-columns: repeat(5, 40px);
+  cursor: pointer;
+}
+/* background: white; */
+/* color: white; */
+/* fill: rgb(29, 161, 242); */
+
+#icon-color {
+  fill: rgb(29, 161, 242);
+}
+
+.line {
+  margin-top: 12px;
+  width: 100%;
+  height: 1px;
+  background: #15181c;
+}
+.tweet-btn {
+  width: 19%;
+  margin-top: 10px;
+  margin-left: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  padding: 10px;
+  background: rgb(29, 161, 242);
+  border-radius: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
